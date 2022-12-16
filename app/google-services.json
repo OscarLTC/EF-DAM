@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "1055335216806",
+    "project_id": "ef-dam",
+    "storage_bucket": "ef-dam.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1055335216806:android:8126d2210bfeaeeff92667",
+        "android_client_info": {
+          "package_name": "tco.idat.ef"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1055335216806-lpp5d09o0b3tpcaol5eaq8tcs654hei9.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "tco.idat.ef",
+            "certificate_hash": "5c6f0e5590c964f692c38014ced92ccb09ecf943"
+          }
+        },
+        {
+          "client_id": "1055335216806-oi9vsgmf4aa714nvfv9j8i1b7imceo2l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAcPE9MrBoFlkHpkQ1-8Y5jHCnkLIKFpVk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1055335216806-oi9vsgmf4aa714nvfv9j8i1b7imceo2l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
