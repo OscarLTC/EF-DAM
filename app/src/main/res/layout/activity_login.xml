@@ -7,6 +7,7 @@
     android:padding="30dp"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@color/white"
     tools:context=".LoginActivity">
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,12 +25,14 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
+        android:layout_marginTop="100dp"
         >
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:textColorHint="@android:color/darker_gray"
             app:boxStrokeColor="#33CCCC"
+            app:hintTextColor="#33CCCC"
             android:hint="Email"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
@@ -38,6 +41,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
+                android:inputType="textEmailAddress"
+                android:textColorHighlight="@color/black"
                 />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -49,6 +54,7 @@
             android:layout_marginTop="10dp"
             android:textColorHint="@android:color/darker_gray"
             app:boxStrokeColor="#33CCCC"
+            app:hintTextColor="#33CCCC"
             android:hint="Password"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
@@ -57,6 +63,8 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:textStyle="bold"
+                android:inputType="textPassword"
+                android:textColorHighlight="@color/black"
                 />
 
         </com.google.android.material.textfield.TextInputLayout>
@@ -83,7 +91,7 @@
             android:text="Register"
             android:textAllCaps="false"
             android:textColor="@color/black"
-            android:backgroundTint="@android:color/transparent"
+            android:backgroundTint="#f0f0f0"
             />
     </LinearLayout>
 </LinearLayout>
