@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/fondo_register"
+    tools:context=".HomeActivity"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="25dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="155dp"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="Productos"
+            android:textColor="@color/blue_black"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="end"
+            >
+            <ImageView
+                android:id="@+id/btn_close"
+                android:layout_width="45dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="10dp"
+                android:textSize="12dp"
+                android:src="@drawable/ic_baseline_home_24"
+                android:textAllCaps="false"
+                android:textAlignment="center"
+                android:backgroundTint="@color/blue_black"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/shape_background"
+        android:orientation="vertical">
+        <Button
+            android:layout_marginTop="5dp"
+            android:id="@+id/btn_add_product"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:text="NUEVO"
+            android:textSize="12dp"
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:backgroundTint="@color/blue_black"/>
+        <LinearLayout
+            android:id="@+id/products_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:visibility="visible"
+            android:gravity="center"
+            >
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerview_products"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                tools:listitem="@layout/item_product" />
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
