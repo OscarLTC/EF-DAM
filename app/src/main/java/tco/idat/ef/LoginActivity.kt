@@ -28,7 +28,7 @@ class LoginActivity : AppCompatActivity() {
                     FirebaseAuth.getInstance().signInWithEmailAndPassword(email, pass)
                         .addOnCompleteListener{
                             if(it.isSuccessful){
-                                startActivity(Intent(this, MainActivity::class.java))
+                                startActivity(Intent(this, HomeActivity::class.java))
                             }
                             else{
                                 Toast.makeText(this, "Correo y/o contraseña incorrecta", Toast.LENGTH_SHORT).show()
