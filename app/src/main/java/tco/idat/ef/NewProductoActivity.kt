@@ -19,6 +19,9 @@ class NewProductoActivity  : AppCompatActivity() {
         binding = ActivityNewProductBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
+        binding.btnHome.setOnClickListener {
+            setContentView(R.layout.activity_home)
+        }
     }
 
 
