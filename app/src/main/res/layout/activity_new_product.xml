@@ -73,7 +73,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Descripción" />
+            android:hint="Descripción" />
         <EditText
             android:id="@+id/txt_brand"
             android:layout_width="match_parent"
@@ -81,7 +81,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="textPersonName"
-            android:text="Marca" />
+            android:hint="Marca" />
 
         <EditText
             android:id="@+id/txt_price_purchase"
@@ -90,7 +90,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="numberDecimal"
-            android:text="Precio de compra"
+            android:hint="Precio de compra"
             tools:ignore="TouchTargetSizeCheck" />
         <EditText
             android:id="@+id/txt_price_sale"
@@ -99,7 +99,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="numberDecimal"
-            android:text="Precio de venta" />
+            android:hint="Precio de venta" />
         <EditText
             android:id="@+id/txt_stock"
             android:layout_width="match_parent"
@@ -107,7 +107,7 @@
             android:layout_weight="1"
             android:ems="10"
             android:inputType="number"
-            android:text="Stock" />
+            android:hint="Stock" />
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -121,6 +121,7 @@
             android:layout_height="120dp"
             android:layout_marginEnd="15dp"
             android:src="@drawable/icon_product"
+            android:scaleType="centerCrop"
             android:background="@color/white_opacity_30"/>
         <Button
             android:id="@+id/btn_photo"

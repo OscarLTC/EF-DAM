@@ -1,7 +1,7 @@
 package tco.idat.ef.model
 
 data class Producto(
-    var codigo:String,
+    var codigo:Int,
     var descripcion: String,
     var marca: String,
     var preciocompra: Double,
